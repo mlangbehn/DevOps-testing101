@@ -80,7 +80,7 @@ In the previous lab we also included the flag, ```-DskipTests``` which skips ove
 ```
 mvn clean verify -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn
 ```
-In this new build command we are choosing the ```verify``` phase which will package our app as before but this time it will then run some static code analysis on our code to catch common coding mistakes. The string the comes after is just to keep our log clean.
+In this new build command we are choosing the ```verify``` phase which will package our app as before but this time it will then run some static code analysis on our code to catch common coding mistakes. The string that comes after is just to keep our log clean.
 
 5. Scroll down, enter a commit message, and click **Commit Changes**
 
